@@ -1,0 +1,117 @@
+{
+  "HEADER": {
+    "CHEATSHEET": "cheatsheet",
+    "GHOST": "ghosts",
+    "CURSED": "cursed items",
+    "ABOUT": "about"
+  },
+  "PATHTITLE": {
+    "CHEATSHEET": "cheatsheet",
+    "CURSED": "cursed",
+    "ABOUT": "about",
+    "GHOST": "ghosts"
+  },
+  "CHEATSHEET": {
+    "UI": {
+      "EVIDENCE": "evidence",
+      "EV_INSTR": "Left-click: select/unselect evidence. Right-click: ignore evidence",
+      "GHOSTS": "ghosts",
+      "GHOSTS_INSTR": "Types of ghosts will filtered after clicks on evidences. Click on ghost will redirect to them page"
+    },
+    "EVIDENCES": {
+      "DOTS": "D.O.T.S. projector",
+      "BOX": "Spirit Box",
+      "EMF": "EMF Level 5",
+      "PRINTS": "Finger prints",
+      "FREEZ": "Freezing Temperature",
+      "ORBS": "Ghost Orbs",
+      "PEN": "Ghost writing"
+    }
+  },
+  "GHOSTS": {
+    "SPIRIT": {
+      "NAME": "SPIRIT",
+      "ABILITY": "Smudge prevents from hunting (180 seconds/3 minutes)"
+    },
+    "WRAITH": {
+      "NAME": "WRAITH",
+      "ABILITY": "Doesn't have footprints under UV"
+    },
+    "PHANTOM": {
+      "NAME": "PHANTOM",
+      "ABILITY": "Disappear when you take a photo and when hunting, are less visible than other ghosts (show themelves for 1 second and then invisible for 1 cecond)"
+    },
+    "POLTERGRIEST": {
+      "NAME": "POLTERGRIEST",
+      "ABILITY": "Throw multiple objects at once and are more active than other ghosts apart from Oni"
+    },
+    "BANSHEE": {
+      "NAME": "BANSHEE",
+      "ABILITY": "Favours the singing and humming vocalizations for events and interactions. They also have a unique noise on the parabolic mic. Also targets one person at a time."
+    },
+    "JINN": {
+      "NAME": "JINN",
+      "ABILITY": "Can't turn off lights including the breaker, however they can still trip the breaker by tuming on too many lights."
+    },
+    "MARE": {
+      "NAME": "MARE",
+      "ABILITY": "Never turns a light on. Also has a special ability to instantly turn off a light you've just turned on if it's near that light switch"
+    },
+    "REVENANT": {
+      "NAME": "REVENANT",
+      "ABILITY": "Fast when in line of sight and slow when not. Listening to footstep sound queue can give it away."
+    },
+    "SHADE": {
+      "NAME": "SHADE",
+      "ABILITY": "Only interact when your are not there and will start hunting phase at 35% sanity (lowest in-game from any ghost)"
+    },
+    "DEMON": {
+      "NAME": "DEMON",
+      "ABILITY": "Can hunt at ANY sanity level, favour interacting with doors rather than objects and are very active."
+    },
+    "YUREI": {
+      "NAME": "YUREI",
+      "ABILITY": "Has special ghost events which tank your sanity by 25% (all doors close, lights flicker on and off, but ghost doesn't spawn). They can wonder around the house more often than other ghosts"
+    },
+    "ONI": {
+      "NAME": "ONI",
+      "ABILITY": "Very angry when your close to it and highly active (Poltergeist behaviour). Distinguished with a unique object throw where it will throw it twice thë distance to other ghosts."
+    },
+    "YOKAI": {
+      "NAME": "YOKAI",
+      "ABILITY": "Can hunt at 80% sanity if your are talking next to it."
+    },
+    "HANTU": {
+      "NAME": "HANTU",
+      "ABILITY": "Hantu is very fast in the freezing (the only ghost where you can see its' breath while it's hunting you ONLY in the ghost room)."
+    },
+    "GORYO": {
+      "NAME": "GORYO",
+      "ABILITY": "RARELY leaves the ghost room and ALWAYs leaves DOTS as evidence. You can't see the DOTS while you're there, only on cams."
+    },
+    "MYLING": {
+      "NAME": "MYLING",
+      "ABILITY": "Has quiet footstep audio queues when hunting, (CROPPING A FLASHLIGHT RIGHT INFRONT OF YOU AND IF YOU CAN'T HEAR ITS FOOTSTEPs BEFORE THE FLASHLIGHT STARTS TO FLICKER then you have a Myling)."
+    },
+    "ONRYO": {
+      "NAME": "ONRYO",
+      "ABILITY": "Uses a flame much like a crucifix with identical range, and will always prioritize hunt canceling via candle over crucifix."
+    },
+    "TWINS": {
+      "NAME": "TWINS",
+      "ABILITY": "The main one is in the ghost room while the other one, 'the decoy' can roam the map and try to throw you off. Either one of them can hunt, but never both at the same time. It's important when being hunted by twins to listen where ghost is coming from in case the decoy is hunting from somewhere you don't expect. Easy giveaway is if there is activity going on, the other ghost will immediately follow it up in another room."
+    },
+    "RAIJU": {
+      "NAME": "RAIJU",
+      "ABILITY": "Very fast around electrical equipment. Can hunt early"
+    },
+    "OBAKE": {
+      "NAME": "OBAKE",
+      "ABILITY": "Can leave 6 fingers as evidence, but also may not leave finterprints 50% of the time. Fingerprints also disappear in 60 seconds rather"
+    },
+    "MIMIC": {
+      "NAME": "MIMIC",
+      "ABILITY": "Will exhibit all the behaviours of all ghosts random chance throughout the game. They're the only ghosts that can leave 4 evidence pieces (3 in nightmare mode) (4th evidence being false orbs)"
+    }
+  }
+}
