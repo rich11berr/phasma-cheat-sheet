@@ -10,14 +10,26 @@
   }
 
   &-evid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    column-gap: 2rem;
-    row-gap: 2rem;
-
-    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
 
     border-bottom: 2px solid var(--primary-color);
+
+    &-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 2rem;
+      row-gap: 2rem;
+
+      padding: 20px;
+    }
+
+    &-filters {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 2rem;
+    }
   }
 
   &-ghosts {
@@ -34,7 +46,7 @@
   }
 
   &-ghost {
-    width: 500px;
+    width: 600px;
     height: 350px;
 
     transition: all 0.2s ease;
@@ -48,6 +60,7 @@
       font-size: 30px;
       font-weight: bold;
       letter-spacing: 2px;
+      text-transform: uppercase;
     }
   }
 }

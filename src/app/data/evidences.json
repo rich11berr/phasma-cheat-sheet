@@ -1,0 +1,37 @@
+[
+  {
+    "id": 0,
+    "name": "dots",
+    "status": null
+  },
+  {
+    "id": 1,
+    "name": "box",
+    "status": null
+  },
+  {
+    "id": 2,
+    "name": "emf",
+    "status": null
+  },
+  {
+    "id": 3,
+    "name": "prints",
+    "status": null
+  },
+  {
+    "id": 4,
+    "name": "freez",
+    "status": null
+  },
+  {
+    "id": 5,
+    "name": "orbs",
+    "status": null
+  },
+  {
+    "id": 6,
+    "name": "pen",
+    "status": null
+  }
+]
