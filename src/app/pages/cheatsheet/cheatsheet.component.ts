@@ -113,7 +113,7 @@ export class CheatsheetComponent implements OnInit {
     //cold
     if (this.evidences.freez === true) {
       this.ghostsCopy = this.ghostsCopy.filter(ghost => {
-        if (ghost.id === 5 || ghost.id === 7 || ghost.id === 8 || ghost.id === 9
+        if (ghost.id === 5 || ghost.id === 7 || ghost.id === 8 || ghost.id === 9 || ghost.id === 10
           || ghost.id === 11 || ghost.id === 13 || ghost.id === 16 || ghost.id === 17 || ghost.id === 20) {
           return true
         } else { return false }
@@ -121,7 +121,7 @@ export class CheatsheetComponent implements OnInit {
     }
     if (this.evidences.freez === false) {
       this.ghostsCopy = this.ghostsCopy.filter(ghost => {
-        if (!(ghost.id === 5 || ghost.id === 7 || ghost.id === 8 || ghost.id === 9
+        if (!(ghost.id === 5 || ghost.id === 7 || ghost.id === 8 || ghost.id === 9 || ghost.id === 10
           || ghost.id === 11 || ghost.id === 13 || ghost.id === 16 || ghost.id === 17 || ghost.id === 20)) {
           return true
         } else { return false }
