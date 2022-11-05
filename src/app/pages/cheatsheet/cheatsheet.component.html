@@ -1,0 +1,58 @@
+<div class="card cheat">
+  <div class="d-flex flex-row gap-3 align-items-center">
+    <p class="cheat-label">{{ "CHEATSHEET.UI.EVIDENCE" | translate }}:</p>
+    <p>{{ "CHEATSHEET.UI.EV_INSTR" | translate }}</p>
+  </div>
+
+  <div class="cheat-evid">
+    <div class="cheat-evid-grid">
+      <ng-container *ngFor="let evidence of evdences">
+        <button
+          [ngClass]="getEvidStatus(evidence)"
+          class="button button-large button-secondary"
+          (click)="
+            evidence.status === null
+              ? (evidence.status = true)
+              : (evidence.status = null)
+          "
+          (contextmenu)="
+            evidence.status === undefined || true
+              ? (evidence.status = false)
+              : (evidence.status = null)
+          "
+          (click)="filterGhosts()"
+          (contextmenu)="filterGhosts()"
+        >
+          {{ "CHEATSHEET.EVIDENCES." + evidence.name | uppercase | translate }}
+        </button>
+      </ng-container>
+    </div>
+
+    <div class="cheat-evid-filters">
+      <button
+        class="button button-medium button-primary"
+        (click)="clearFilter()"
+      >
+        {{ "CHEATSHEET.UI.CLEAR" | translate }}
+      </button>
+    </div>
+  </div>
+
+  <div class="d-flex flex-row gap-3 align-items-center mt-3">
+    <p class="cheat-label">{{ "CHEATSHEET.UI.GHOSTS" | translate }}:</p>
+    <p>{{ "CHEATSHEET.UI.GHOSTS_INSTR" | translate }}</p>
+  </div>
+
+  <div class="cheat-ghosts">
+    <ng-container *ngFor="let ghost of ghostsCopy">
+      <div class="cheat-ghost card d-flex flex-column gap-3">
+        <p class="cheat-ghost__title">
+          {{ "GHOSTS." + ghost.name + ".NAME" | uppercase | translate }}
+        </p>
+        <p class="cheat-ghost__subtitle">
+          {{ "GHOSTS." + ghost.name + ".ACTIVITY" | uppercase | translate }}
+        </p>
+      </div>
+    </ng-container>
+  </div>
+</div>

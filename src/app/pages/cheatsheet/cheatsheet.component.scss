@@ -1,0 +1,74 @@
+@import "../../../assets/sass/core/variables.scss";
+
+.cheat {
+  &-label {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-decoration: underline;
+  }
+
+  &-evid {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    border-bottom: 2px solid var(--primary-color);
+
+    &-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      column-gap: 2rem;
+      row-gap: 2rem;
+
+      padding: 20px;
+    }
+
+    &-filters {
+      display: flex;
+      gap: 30px;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &-ghosts {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2rem;
+    row-gap: 2rem;
+    align-content: center;
+    justify-items: center;
+
+    padding: 20px;
+
+    border-bottom: 2px solid var(--primary-color);
+  }
+
+  &-ghost {
+    width: 600px;
+    height: 350px;
+
+    transition: all 0.2s ease;
+    cursor: pointer;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+    &__title {
+      font-size: 30px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+  }
+}
+
+.--active {
+  background-color: $green;
+}
+
+.--disabled {
+  background-color: $red;
+}

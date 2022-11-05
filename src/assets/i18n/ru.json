@@ -1,0 +1,143 @@
+{
+  "HEADER": {
+    "CHEATSHEET": "шпаргалка",
+    "GHOST": "призраки",
+    "CURSED": "проклятые предметы",
+    "ABOUT": "о проекте"
+  },
+  "PATHTITLE": {
+    "CHEATSHEET": "шпаргалка",
+    "CURSED": "проклятые",
+    "ABOUT": "проект",
+    "GHOST": "призраки"
+  },
+  "CHEATSHEET": {
+    "UI": {
+      "EVIDENCE": "улика",
+      "EV_INSTR": "ЛКМ: выбрать/отменить выбор улики. ПКМ: исключить улику",
+      "GHOSTS": "Призраки",
+      "GHOSTS_INSTR": "Types of ghosts will filtered after clicks on evidences. Click on ghost will redirect to them page",
+      "CLEAR": "Очистить"
+    },
+    "EVIDENCES": {
+      "DOTS": "Лазерный проектор",
+      "BOX": "Радиоприемник",
+      "EMF": "ЭМП Уровень 5",
+      "PRINTS": "Отпечатки",
+      "FREEZ": "Минусовая температура",
+      "ORBS": "Призрачные огоньки",
+      "PEN": "Записи"
+    }
+  },
+  "GHOSTS": {
+    "SPIRIT": {
+      "NAME": "дух",
+      "ACTIVITY": "Smudge prevents from hunting (180 seconds/3 minutes)",
+      "ABILITY": "None."
+    },
+    "WRAITH": {
+      "NAME": "призрак",
+      "ACTIVITY": "When a Wraith steps in a salt pile, indicated by the presence of an imprint, it will never leave any UV-visible footprints, even if it moves and makes footstep noises. It will also temporarily have an increased amount of ghost activity. Salt piles stepped in by the Wraith will not provide photo rewards for the Footprint category.",
+      "ABILITY": "When the Wraith is not hunting, it has a chance to teleport within 3 metres of a random player, generating an EMF Level 2 reading at the location where it teleported to, with a 25% chance for this to be an EMF Level 5 reading instead. The Wraith will resume normal behaviour after teleporting."
+    },
+    "PHANTOM": {
+      "NAME": "фантом",
+      "ACTIVITY": "Disappear when you take a photo (not while hunt). Are less visible than other ghosts (show themelves for 1 second and then invisible for 1 cecond)",
+      "ABILITY": "The Phantom has an ability where it will choose a random player and travel to their location (as opposed to a regular roam). This will create an EMF Level 2 reading at the position where it started its walk.[1] During that time, it will not produce any other manifestations and will not be able to initiate hunts unless prompted by player activity (using cursed objects). Being within 10 metres of a Phantom while in line-of-sight will reduce the player's sanity by approximately 0.5% per second. This applies during both ghost events and hunts."
+    },
+    "POLTERGRIEST": {
+      "NAME": "полтергейст",
+      "ACTIVITY": "In general, the Poltergeist is more likely to throw items. During a hunt, the Poltergeist will always throw an item every 0.5 seconds, instead of only having a 50% chance to do so.",
+      "ABILITY": "The Poltergeist will occasionally use an ability that allows it to throw multiple nearby items at once, creating an EMF level 2 reading (the thrown items themselves generate EMF 3). This will decrease the sanity of all nearby players in line-of-sight with the EMF 2 location by a percentage equal to the number of items thrown multiplied by 2. The ability and associated sanity drain works even when the lights are turned on. If there are no items near a Poltergeist, it is unable to use its ability. This does not influence its behaviour towards initiating a hunt."
+    },
+    "BANSHEE": {
+      "NAME": "банши",
+      "ACTIVITY": "Favours the singing and humming vocalizations for events and interactions. They also have a unique noise on the parabolic mic. Also targets one person at a time.",
+      "ABILITY": "The Banshee will occasionally walk to the position of its target. This is similar to the Phantom's ability. This does not occur during hunts. When a Parabolic Microphone is used, the Banshee has a chance of making a unique shriek-like paranormal sound, instead of a whisper."
+    },
+    "JINN": {
+      "NAME": "джин",
+      "ACTIVITY": "The Jinn cannot turn off a breaker directly through interacting with it. It can still turn it off unintentionally by overloading the fuse box, by having too many lights turned on. There is a popular myth claiming the Jinn will interact with electronics often rather than other interactions; this is not true. The Jinn has an equal chance of interacting with anything nearby.",
+      "ABILITY": "When the Jinn uses its ability, it will lower the sanity of all players in the same room or otherwise within 3 meters of it by 25%. An EMF 2/5 reading will be generated at the fuse box."
+    },
+    "MARE": {
+      "NAME": "мара",
+      "ACTIVITY": "Mares cannot interact with lights to turn them on, and they are more likely to choose turning off lights as an interaction. When the Mare roams, it is more likely to choose an unlit room to roam into than a lit room. The Mare has a higher chance of performing light-shattering ghost events over other types, as this will disable the lights, making it easier to hunt.",
+      "ABILITY": "If a player turns on a light near a Mare, it has a small chance of turning the light off almost immediately. This will not work simply by spamming the light in quick succession."
+    },
+    "REVENANT": {
+      "NAME": "ревенант",
+      "ACTIVITY": "Fast when in line of sight and slow when not. Listening to footstep sound queue can give it away."
+    },
+    "SHADE": {
+      "NAME": "тень",
+      "ACTIVITY": "Only interact when your are not there and will start hunting phase at 35% sanity (lowest in-game from any ghost)"
+    },
+    "DEMON": {
+      "NAME": "демон",
+      "ACTIVITY": "Can hunt at ANY sanity level, favour interacting with doors rather than objects and are very active.",
+      "ABILITY": "The Demon has an ability that allows it to automatically start a hunt, regardless of current average sanity. There is no particular behavior or condition (such as requiring line-of-sight with a player) that affects if it activates or not; if it decides to use its ability, it will hunt. Crucifixes can block this hunt like any other non-cursed hunt."
+    },
+    "YUREI": {
+      "NAME": "юрей",
+      "ACTIVITY": "Has special ghost events which tank your sanity by 25% (all doors close, lights flicker on and off, but ghost doesn't spawn). They can wonder around the house more often than other ghosts"
+    },
+    "ONI": {
+      "NAME": "они",
+      "ACTIVITY": "Very angry when your close to it and highly active (Poltergeist behaviour). Distinguished with a unique object throw where it will throw it twice thë distance to other ghosts."
+    },
+    "YOKAI": {
+      "NAME": "йокай",
+      "ACTIVITY": "Can hunt at 80% sanity if your are talking next to it.",
+      "ABILITY": "When a Music Box is used, the Yokai must be closer to the player holding the box than other ghosts for a cursed hunt to initiate."
+    },
+    "HANTU": {
+      "NAME": "ханту",
+      "ACTIVITY": "Hantu is very fast in the freezing (the only ghost where you can see its' breath while it's hunting you ONLY in the ghost room)."
+    },
+    "GORYO": {
+      "NAME": "горё",
+      "ACTIVITY": "RARELY leaves the ghost room and ALWAYs leaves DOTS as evidence. You can't see the DOTS while you're there, only on cams."
+    },
+    "MYLING": {
+      "NAME": "мюлинг",
+      "ACTIVITY": "Has quiet footstep audio queues when hunting, (CROPPING A FLASHLIGHT RIGHT INFRONT OF YOU AND IF YOU CAN'T HEAR ITS FOOTSTEPs BEFORE THE FLASHLIGHT STARTS TO FLICKER then you have a Myling).",
+      "ABILITY": "The Myling produces paranormal sounds (that can only be heard through a Parabolic Microphone) more often than other ghosts."
+    },
+    "ONRYO": {
+      "NAME": "онрё",
+      "ACTIVITY": "Uses a flame much like a crucifix with identical range, and will always prioritize hunt canceling via candle over crucifix.",
+      "ABILITY": "If the Onryo attempts a hunt within 4 metres of a candle, it will blow out the candle flame instead, and the hunt will fail. If both a crucifix and a lit candle are within range, the candle will take priority over the crucifix for preventing the hunt. Candles extinguishing on their own or due to being thrown does not count. Every third candle that the Onryo blows out (not thrown or naturally extinguished) will cause it to attempt to initiate a hunt, regardless of current average sanity. This hunt can be blocked by normal prevention methods (e.g. a crucifix) or another lit candle."
+    },
+    "TWINS": {
+      "NAME": "близнецы",
+      "ACTIVITY": "The main one is in the ghost room while the other one, 'the decoy' can roam the map and try to throw you off. Either one of them can hunt, but never both at the same time. It's important when being hunted by twins to listen where ghost is coming from in case the decoy is hunting from somewhere you don't expect. Easy giveaway is if there is activity going on, the other ghost will immediately follow it up in another room."
+    },
+    "RAIJU": {
+      "NAME": "райдзю",
+      "ACTIVITY": "Very fast around electrical equipment. Can hunt early"
+    },
+    "OBAKE": {
+      "NAME": "обаке",
+      "ACTIVITY": "Can leave 6 fingers as evidence, but also may not leave finterprints 50% of the time. Fingerprints also disappear in 60 seconds rather"
+    },
+    "MIMIC": {
+      "NAME": "мимик",
+      "ACTIVITY": "Will exhibit all the behaviours of all ghosts random chance throughout the game. They're the only ghosts that can leave 4 evidence pieces (3 in nightmare mode) (4th evidence being false orbs)"
+    },
+    "MOROI": {
+      "NAME": "морой",
+      "ACTIVITY": "The Moroi has an ability to 'curse' a target through the following ways: By successfully obtaining a response from the spirit box; this will curse the person who 'caused' the response, by asking questions or the failsafe triggering. Hearing whispers through the parabolic microphone. When a player is cursed, their passive sanity drain will be doubled. Being in a lit area will not prevent this sanity drain, but walking outside the investigation area will pause the curse until that player re-enters. Consuming Sanity Pills removes the curse for that player (they can later be re-cursed). Multiple players can be cursed at the same time, but curses cannot stack on a single player."
+    },
+    "DEOGEN": {
+      "NAME": "деоген",
+      "ACTIVITY": "The Deogen is more likely to interact with the D.O.T.S Projector and Ghost Writing Book; in other words, it will on average write in a book earlier than other ghosts, and show up more often as a silhouette on the D.O.T.S Projector.",
+      "ABILITY": "If the player asks any question through the Spirit Box while standing within 1 metre of the Deogen, it has a 33% chance with each question to produce a unique response of constant heavy bull-like breathing, instead of a regular response."
+    },
+    "THAYE": {
+      "NAME": "тайэ",
+      "ACTIVITY": "The Thaye is more likely to interact with the D.O.T.S Projector and Ghost Writing Book; in other words, it will on average write in a book earlier than other ghosts, and show up more often as a silhouette on the D.O.T.S Projector.",
+      "ABILITY": "The Thaye has an 'age' parameter that decreases its general activity. Every 1 to 2 minutes, the Thaye attempts to age; if at least one player is in the same room as the ghost, the Thaye will age, else it will wait another 30 seconds before attempting to age again. The Thaye can age a total of 10 times per contract. The following shows the parameters that are affected by age:"
+    }
+  }
+}

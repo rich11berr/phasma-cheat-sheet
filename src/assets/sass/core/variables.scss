@@ -1,0 +1,21 @@
+.light-theme {
+  --primary-color: #232323;
+  --primary-light: #4f4f4f;
+
+  --secondary-color: #e1e4e1;
+  --secondary-light: #e0e0e0;
+
+  --background: #efefef;
+}
+.dark-theme {
+  --primary-color: #e1e4e1;
+  --primary-light: #e0e0e0;
+
+  --secondary-color: #232323;
+  --secondary-light: #4f4f4f;
+
+  --background: #414141;
+}
+
+$red: #ce4f3f;
+$green: rgb(71, 173, 71);
