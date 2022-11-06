@@ -29,6 +29,16 @@
       "PEN": "Ghost writing"
     }
   },
+  "ABOUT": {
+    "UI": {
+      "PROJECT": "Project",
+      "PROJECT_DESCR": "Welcome to PhasmaTool. This is open-source project. Goal of this project is create usefull tools for phasma players. Of course in the internet a lot of simmilar projects, but this one is different (or I hope so). First of all this project with good design (this opinion of me, my mother and two my friends). Secondly this project have translation, and translations can be created by community.",
+      "AUTHOR": "Author",
+      "AUTHOR_DESCR": "Hi, my name is Rinat and I'm front-end developer and also creator of this application. I don't think that you are intersted in me, so, if you wonna contact with me under this section some links, feel free to click)",
+      "MONEY": "Money",
+      "MONEY_DESCR": "This application don't have any ads and never will. So, if you wonna help with money you can click donate button."
+    }
+  },
   "GHOSTS": {
     "SPIRIT": {
       "NAME": "SPIRIT",

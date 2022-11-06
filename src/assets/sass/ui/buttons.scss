@@ -10,11 +10,9 @@
   text-align: center;
   letter-spacing: 0.75px;
   text-transform: uppercase;
-  transition: all ease-in-out 0.2s;
+  transition: all ease 0.3s;
 
-  &:active {
-    transform: scale(1.05);
-  }
+  cursor: pointer;
 
   &-large {
     height: 64px;
@@ -38,6 +36,7 @@
     &:hover {
       background-color: var(--primary-light);
       color: var(--secondary-light);
+      transform: scale(1.05);
     }
   }
 
@@ -59,5 +58,31 @@
     border-radius: 40px;
     width: 54px;
     height: 54px;
+  }
+
+  //hover effect
+  &-text {
+    background-image: linear-gradient(
+      transparent calc(100% - 2px),
+      var(--primary-color) 2px
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 85%;
+    transition: background-size 0.3s ease;
+    &:hover {
+      background-size: 100% 85%;
+    }
+  }
+  &-secondary {
+    background-image: linear-gradient(
+      transparent calc(100% - 2px),
+      var(--primary-color) 2px
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    transition: background-size 0.3s ease;
+    &:hover {
+      background-size: 100% 100%;
+    }
   }
 }
