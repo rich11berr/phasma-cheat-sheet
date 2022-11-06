@@ -1,0 +1,16 @@
+@import "../../../assets/sass/core/variables.scss";
+
+.about {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+
+  &-item {
+    border-bottom: 2px solid var(--primary-color);
+    padding-bottom: 10px;
+  }
+}
+
+.button-primary {
+  text-decoration: none;
+}
