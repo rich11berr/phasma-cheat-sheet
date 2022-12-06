@@ -46,7 +46,7 @@
       "ABILITY": "None."
     },
     "WRAITH": {
-      "NAME": "призрак",
+      "NAME": "мираж",
       "ACTIVITY": "When a Wraith steps in a salt pile, indicated by the presence of an imprint, it will never leave any UV-visible footprints, even if it moves and makes footstep noises. It will also temporarily have an increased amount of ghost activity. Salt piles stepped in by the Wraith will not provide photo rewards for the Footprint category.",
       "ABILITY": "When the Wraith is not hunting, it has a chance to teleport within 3 metres of a random player, generating an EMF Level 2 reading at the location where it teleported to, with a 25% chance for this to be an EMF Level 5 reading instead. The Wraith will resume normal behaviour after teleporting."
     },

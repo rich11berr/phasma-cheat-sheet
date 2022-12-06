@@ -12,6 +12,7 @@ import { AboutComponent } from './pages/about/about.component';
 import { CheatsheetComponent } from './pages/cheatsheet/cheatsheet.component';
 import { CursedComponent } from './pages/cursed/cursed.component';
 import { GhostsComponent } from './pages/ghosts/ghosts.component';
+import { GhostItemComponent } from './pages/ghost-item/ghost-item.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -26,6 +27,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     AboutComponent,
     RouterTitleComponent,
     GhostsComponent,
+    GhostItemComponent,
   ],
   imports: [
     BrowserModule,
