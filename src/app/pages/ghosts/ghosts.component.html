@@ -11,6 +11,7 @@
     <div
       class="ghosts-item button button-secondary"
       *ngFor="let ghost of ghosts"
+      routerLink="/ghosts/{{ ghost.id }}"
     >
       <p class="ghosts-item__title">
         {{ "GHOSTS." + ghost.name + ".NAME" | uppercase | translate }}

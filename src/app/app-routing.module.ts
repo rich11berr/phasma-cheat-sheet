@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { AboutComponent } from './pages/about/about.component';
 import { CheatsheetComponent } from './pages/cheatsheet/cheatsheet.component';
 import { CursedComponent } from './pages/cursed/cursed.component';
+import { GhostItemComponent } from './pages/ghost-item/ghost-item.component';
 import { GhostsComponent } from './pages/ghosts/ghosts.component';
 
 const routes: Routes = [
@@ -18,6 +19,10 @@ const routes: Routes = [
   {
     path: 'ghosts',
     component: GhostsComponent
+  },
+  {
+    path: 'ghosts/:id',
+    component: GhostItemComponent
   },
   {
     path: 'cursed',

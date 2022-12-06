@@ -17,7 +17,9 @@
       "EV_INSTR": "ЛКМ: выбрать/отменить выбор улики. ПКМ: исключить улику",
       "GHOSTS": "Призраки",
       "GHOSTS_INSTR": "Types of ghosts will filtered after clicks on evidences. Click on ghost will redirect to them page",
-      "CLEAR": "Очистить"
+      "CLEAR": "Очистить",
+      "SPEED_LABEL": "Скорость призрака",
+      "SPEED_DESCR": "Undefined: Вы еще не знаете скорость призрака. Unstable: Скорость призрака отличается/изменчива от скорости по умолчанию. Default: скорость призрака обычная"
     },
     "EVIDENCES": {
       "DOTS": "Лазерный проектор",
@@ -37,6 +39,13 @@
       "AUTHOR_DESCR": "Hi, my name is Rinat and I'm front-end developer and also creator of this application. I don't think that you are intersted in me, so, if you wonna contact with me under this section some links, feel free to click)",
       "MONEY": "Деньги",
       "MONEY_DESCR": "This application don't have any ads and never will. So, if you wonna help with money you can click donate button."
+    }
+  },
+  "GHOST-ITEM": {
+    "UI": {
+      "BACK": "назад",
+      "ACTIVITY": "Активность",
+      "ABILITY": "Способность"
     }
   },
   "GHOSTS": {

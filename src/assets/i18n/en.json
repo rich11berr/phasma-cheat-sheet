@@ -17,7 +17,9 @@
       "EV_INSTR": "Left-click: select/unselect evidence. Right-click: ignore evidence",
       "GHOSTS": "ghosts",
       "GHOSTS_INSTR": "Types of ghosts will filtered after clicks on evidences. Click on ghost will redirect to them page",
-      "CLEAR": "clear"
+      "CLEAR": "clear",
+      "SPEED_LABEL": "Ghost's speed",
+      "SPEED_DESCR": "Undefined: You don't know ghost's speed yet. Unstable: ghost's speed depends on certain conditions. Default: ghost's speed is default"
     },
     "EVIDENCES": {
       "DOTS": "D.O.T.S. projector",
@@ -37,6 +39,13 @@
       "AUTHOR_DESCR": "Hi, my name is Rinat and I'm front-end developer and also creator of this application. I don't think that you are intersted in me, so, if you wonna contact with me under this section some links, feel free to click)",
       "MONEY": "Money",
       "MONEY_DESCR": "This application don't have any ads and never will. So, if you wonna help with money you can click donate button."
+    }
+  },
+  "GHOST-ITEM": {
+    "UI": {
+      "BACK": "Back",
+      "ACTIVITY": "Activity",
+      "ABILITY": "Ability"
     }
   },
   "GHOSTS": {
@@ -77,11 +86,13 @@
     },
     "REVENANT": {
       "NAME": "REVENANT",
-      "ACTIVITY": "Fast when in line of sight and slow when not. Listening to footstep sound queue can give it away."
+      "ACTIVITY": "Fast when in line of sight and slow when not. Listening to footstep sound queue can give it away.",
+      "ABILITY": "None."
     },
     "SHADE": {
       "NAME": "SHADE",
-      "ACTIVITY": "Only interact when your are not there and will start hunting phase at 35% sanity (lowest in-game from any ghost)"
+      "ACTIVITY": "Only interact when your are not there and will start hunting phase at 35% sanity (lowest in-game from any ghost)",
+      "ABILITY": "None."
     },
     "DEMON": {
       "NAME": "DEMON",
@@ -90,11 +101,13 @@
     },
     "YUREI": {
       "NAME": "YUREI",
-      "ACTIVITY": "Has special ghost events which tank your sanity by 25% (all doors close, lights flicker on and off, but ghost doesn't spawn). They can wonder around the house more often than other ghosts"
+      "ACTIVITY": "Has special ghost events which tank your sanity by 25% (all doors close, lights flicker on and off, but ghost doesn't spawn). They can wonder around the house more often than other ghosts",
+      "ABILITY": "None."
     },
     "ONI": {
       "NAME": "ONI",
-      "ACTIVITY": "Very angry when your close to it and highly active (Poltergeist behaviour). Distinguished with a unique object throw where it will throw it twice thë distance to other ghosts."
+      "ACTIVITY": "Very angry when your close to it and highly active (Poltergeist behaviour). Distinguished with a unique object throw where it will throw it twice thë distance to other ghosts.",
+      "ABILITY": "None."
     },
     "YOKAI": {
       "NAME": "YOKAI",
@@ -103,11 +116,13 @@
     },
     "HANTU": {
       "NAME": "HANTU",
-      "ACTIVITY": "Hantu is very fast in the freezing (the only ghost where you can see its' breath while it's hunting you ONLY in the ghost room)."
+      "ACTIVITY": "Hantu is very fast in the freezing (the only ghost where you can see its' breath while it's hunting you ONLY in the ghost room).",
+      "ABILITY": "None."
     },
     "GORYO": {
       "NAME": "GORYO",
-      "ACTIVITY": "RARELY leaves the ghost room and ALWAYs leaves DOTS as evidence. You can't see the DOTS while you're there, only on cams."
+      "ACTIVITY": "RARELY leaves the ghost room and ALWAYs leaves DOTS as evidence. You can't see the DOTS while you're there, only on cams.",
+      "ABILITY": "None."
     },
     "MYLING": {
       "NAME": "MYLING",
@@ -121,23 +136,28 @@
     },
     "TWINS": {
       "NAME": "TWINS",
-      "ACTIVITY": "The main one is in the ghost room while the other one, 'the decoy' can roam the map and try to throw you off. Either one of them can hunt, but never both at the same time. It's important when being hunted by twins to listen where ghost is coming from in case the decoy is hunting from somewhere you don't expect. Easy giveaway is if there is activity going on, the other ghost will immediately follow it up in another room."
+      "ACTIVITY": "The main one is in the ghost room while the other one, 'the decoy' can roam the map and try to throw you off. Either one of them can hunt, but never both at the same time. It's important when being hunted by twins to listen where ghost is coming from in case the decoy is hunting from somewhere you don't expect. Easy giveaway is if there is activity going on, the other ghost will immediately follow it up in another room.",
+      "ABILITY": "None."
     },
     "RAIJU": {
       "NAME": "RAIJU",
-      "ACTIVITY": "Very fast around electrical equipment. Can hunt early"
+      "ACTIVITY": "Very fast around electrical equipment. Can hunt early",
+      "ABILITY": "None."
     },
     "OBAKE": {
       "NAME": "OBAKE",
-      "ACTIVITY": "Can leave 6 fingers as evidence, but also may not leave finterprints 50% of the time. Fingerprints also disappear in 60 seconds rather"
+      "ACTIVITY": "Can leave 6 fingers as evidence, but also may not leave finterprints 50% of the time. Fingerprints also disappear in 60 seconds rather",
+      "ABILITY": "None."
     },
     "MIMIC": {
       "NAME": "MIMIC",
-      "ACTIVITY": "Will exhibit all the behaviours of all ghosts random chance throughout the game. They're the only ghosts that can leave 4 evidence pieces (3 in nightmare mode) (4th evidence being false orbs)"
+      "ACTIVITY": "Will exhibit all the behaviours of all ghosts random chance throughout the game. They're the only ghosts that can leave 4 evidence pieces (3 in nightmare mode) (4th evidence being false orbs)",
+      "ABILITY": "None."
     },
     "MOROI": {
       "NAME": "MOROI",
-      "ACTIVITY": "The Moroi has an ability to 'curse' a target through the following ways: By successfully obtaining a response from the spirit box; this will curse the person who 'caused' the response, by asking questions or the failsafe triggering. Hearing whispers through the parabolic microphone. When a player is cursed, their passive sanity drain will be doubled. Being in a lit area will not prevent this sanity drain, but walking outside the investigation area will pause the curse until that player re-enters. Consuming Sanity Pills removes the curse for that player (they can later be re-cursed). Multiple players can be cursed at the same time, but curses cannot stack on a single player."
+      "ACTIVITY": "The Moroi has an ability to 'curse' a target through the following ways: By successfully obtaining a response from the spirit box; this will curse the person who 'caused' the response, by asking questions or the failsafe triggering. Hearing whispers through the parabolic microphone. When a player is cursed, their passive sanity drain will be doubled. Being in a lit area will not prevent this sanity drain, but walking outside the investigation area will pause the curse until that player re-enters. Consuming Sanity Pills removes the curse for that player (they can later be re-cursed). Multiple players can be cursed at the same time, but curses cannot stack on a single player.",
+      "ABILITY": "None."
     },
     "DEOGEN": {
       "NAME": "DEOGEN",

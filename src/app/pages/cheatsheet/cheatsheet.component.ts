@@ -17,6 +17,8 @@ export class CheatsheetComponent implements OnInit {
   public ghosts: Ghost[] = ghostsData;
   public ghostsCopy: Ghost[] = ghostsData;
 
+  public speed?: boolean;
+
   constructor() { }
 
   ngOnInit(): void {
@@ -34,6 +36,7 @@ export class CheatsheetComponent implements OnInit {
     }
     return
   }
+
 
   changeEvidStatus(obj: any) {
     if (obj === undefined) {
@@ -77,12 +80,24 @@ export class CheatsheetComponent implements OnInit {
         }
       })
     })
+
+    if (this.speed !== undefined) {
+      this.ghostsCopy = this.ghostsCopy.filter(ghost => {
+        if (ghost.speed === this.speed || ghost.speed === null) {
+          return true
+        } else {
+          return false
+        }
+      })
+    }
   }
 
   clearFilter() {
     this.evdences.forEach(el => {
       el.status = null;
     })
+    this.speed = undefined;
     this.filterGhosts();
   }
+
 }
