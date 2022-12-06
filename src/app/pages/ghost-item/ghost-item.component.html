@@ -23,5 +23,28 @@
         </p>
       </div>
     </div>
+
+    <div
+      class="ghost-additional d-flex flex-column gap-2"
+      *ngIf="ghost.video || ghost.image"
+    >
+      <ng-container *ngIf="ghost.video">
+        <span>Video: </span>
+        <iframe
+          [src]="ghost.video | safe : 'resourceUrl'"
+          width="560"
+          height="315"
+          frameBorder="0"
+          encrypted-media
+          picture-in-picture
+          allowfullscreen
+        ></iframe>
+      </ng-container>
+
+      <ng-container *ngIf="ghost.image">
+        <span>Image: </span>
+        <img [src]="ghost.image" width="560px" height="auto" alt="clue" />
+      </ng-container>
+    </div>
   </div>
 </ng-container>

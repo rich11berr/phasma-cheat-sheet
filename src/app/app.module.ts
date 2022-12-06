@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { SafePipe } from './pipes/safePipe.pipe';
 
 import { HttpClient, HttpClientModule } from '@angular/common/http';
 import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
@@ -11,8 +12,8 @@ import { RouterTitleComponent } from './components/router-title/router-title.com
 import { AboutComponent } from './pages/about/about.component';
 import { CheatsheetComponent } from './pages/cheatsheet/cheatsheet.component';
 import { CursedComponent } from './pages/cursed/cursed.component';
-import { GhostsComponent } from './pages/ghosts/ghosts.component';
 import { GhostItemComponent } from './pages/ghost-item/ghost-item.component';
+import { GhostsComponent } from './pages/ghosts/ghosts.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http);
@@ -28,6 +29,7 @@ export function HttpLoaderFactory(http: HttpClient) {
     RouterTitleComponent,
     GhostsComponent,
     GhostItemComponent,
+    SafePipe
   ],
   imports: [
     BrowserModule,

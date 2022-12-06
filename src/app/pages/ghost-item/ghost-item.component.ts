@@ -23,7 +23,6 @@ export class GhostItemComponent implements OnInit {
         this.ghost = el;
       }
     })
-    console.log(this.ghost);
   }
 
   ngOnInit(): void {

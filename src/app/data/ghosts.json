@@ -33,7 +33,8 @@
     "name": "banshee",
     "name_ru": "банши",
     "evidence": [3, 5, 0],
-    "speed": false
+    "speed": false,
+    "video": "https://www.youtube.com/embed/TXL7rM3nndI"
   },
   {
     "id": 5,
@@ -138,7 +139,8 @@
     "name": "obake",
     "name_ru": "обаке",
     "evidence": [3, 2, 5],
-    "speed": false
+    "speed": false,
+    "image": "https://i.redd.it/uu8by2z16lv81.png"
   },
   {
     "id": 20,
@@ -159,7 +161,8 @@
     "name": "deogen",
     "name_ru": "деоген",
     "evidence": [1, 6, 0],
-    "speed": true
+    "speed": true,
+    "video": "https://www.youtube.com/embed/Zm2w4X-TU2c"
   },
   {
     "id": 23,
