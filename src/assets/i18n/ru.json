@@ -17,7 +17,9 @@
       "EV_INSTR": "ЛКМ: выбрать/отменить выбор улики. ПКМ: исключить улику",
       "GHOSTS": "Призраки",
       "GHOSTS_INSTR": "Types of ghosts will filtered after clicks on evidences. Click on ghost will redirect to them page",
-      "CLEAR": "Очистить"
+      "CLEAR": "Очистить",
+      "SPEED_LABEL": "Скорость призрака",
+      "SPEED_DESCR": "Undefined: Вы еще не знаете скорость призрака. Unstable: Скорость призрака отличается/изменчива от скорости по умолчанию. Default: скорость призрака обычная"
     },
     "EVIDENCES": {
       "DOTS": "Лазерный проектор",
@@ -39,7 +41,13 @@
       "MONEY_DESCR": "This application don't have any ads and never will. So, if you wonna help with money you can click donate button."
     }
   },
-
+  "GHOST-ITEM": {
+    "UI": {
+      "BACK": "назад",
+      "ACTIVITY": "Активность",
+      "ABILITY": "Способность"
+    }
+  },
   "GHOSTS": {
     "SPIRIT": {
       "NAME": "дух",
@@ -47,7 +55,7 @@
       "ABILITY": "None."
     },
     "WRAITH": {
-      "NAME": "призрак",
+      "NAME": "мираж",
       "ACTIVITY": "When a Wraith steps in a salt pile, indicated by the presence of an imprint, it will never leave any UV-visible footprints, even if it moves and makes footstep noises. It will also temporarily have an increased amount of ghost activity. Salt piles stepped in by the Wraith will not provide photo rewards for the Footprint category.",
       "ABILITY": "When the Wraith is not hunting, it has a chance to teleport within 3 metres of a random player, generating an EMF Level 2 reading at the location where it teleported to, with a 25% chance for this to be an EMF Level 5 reading instead. The Wraith will resume normal behaviour after teleporting."
     },

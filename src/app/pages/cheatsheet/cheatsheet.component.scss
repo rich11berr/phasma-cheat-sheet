@@ -47,7 +47,7 @@
 
   &-ghost {
     width: 600px;
-    height: 350px;
+    height: 290px;
 
     transition: all 0.2s ease;
     cursor: pointer;
@@ -71,4 +71,59 @@
 
 .--disabled {
   background-color: $red;
+}
+
+@media screen and (max-width: 1427px) {
+  .cheat {
+    &-evid {
+      &-grid {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    // &-ghosts {
+    // }
+
+    &-ghost {
+      width: 450px;
+      height: 380px;
+    }
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .cheat {
+    // &-evid {
+    //   &-grid {
+    //   }
+    // }
+
+    &-ghosts {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &-ghost {
+      width: 500px;
+      height: 250px;
+    }
+  }
+}
+
+@media screen and (max-width: 810px) {
+  .cheat {
+    &-evid {
+      &-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    &-ghosts {
+      grid-template-columns: repeat(1, 1fr);
+    }
+
+    &-ghost {
+      width: 500px;
+      height: 250px;
+    }
+  }
 }

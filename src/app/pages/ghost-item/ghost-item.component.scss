@@ -1,0 +1,24 @@
+@import "../../../assets/sass/core/variables.scss";
+
+.ghost {
+  &-header {
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-color);
+  }
+
+  &-description {
+    margin-bottom: 3rem;
+    padding-bottom: 1rem;
+    border-bottom: 2px solid var(--primary-color);
+  }
+}
+
+p,
+span {
+  font-size: 22px;
+  line-height: 120%;
+}
+span {
+  font-weight: 600;
+}

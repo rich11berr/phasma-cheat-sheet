@@ -1,0 +1,50 @@
+<ng-container *ngIf="ghost">
+  <div class="card ghost">
+    <div class="d-flex flex-row gap-3 align-items-center ghost-header">
+      <button class="button button-secondary button-large" routerLink="/ghosts">
+        {{ "GHOST-ITEM.UI.BACK" | translate }}
+      </button>
+      <h2 class="mt-3">
+        {{
+          "GHOSTS." + ghost.name + ".NAME" | uppercase | translate | uppercase
+        }}
+      </h2>
+    </div>
+
+    <div class="ghost-description">
+      <div class="d-flex flex-column gap-3">
+        <p>
+          <span>{{ "GHOST-ITEM.UI.ACTIVITY" | translate | uppercase }}: </span
+          >{{ "GHOSTS." + ghost.name + ".ACTIVITY" | uppercase | translate }}
+        </p>
+        <p>
+          <span>{{ "GHOST-ITEM.UI.ABILITY" | translate | uppercase }}: </span>
+          {{ "GHOSTS." + ghost.name + ".ABILITY" | uppercase | translate }}
+        </p>
+      </div>
+    </div>
+
+    <div
+      class="ghost-additional d-flex flex-column gap-2"
+      *ngIf="ghost.video || ghost.image"
+    >
+      <ng-container *ngIf="ghost.video">
+        <span>Video: </span>
+        <iframe
+          [src]="ghost.video | safe : 'resourceUrl'"
+          width="560"
+          height="315"
+          frameBorder="0"
+          encrypted-media
+          picture-in-picture
+          allowfullscreen
+        ></iframe>
+      </ng-container>
+
+      <ng-container *ngIf="ghost.image">
+        <span>Image: </span>
+        <img [src]="ghost.image" width="560px" height="auto" alt="clue" />
+      </ng-container>
+    </div>
+  </div>
+</ng-container>

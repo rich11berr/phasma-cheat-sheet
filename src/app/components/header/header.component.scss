@@ -3,6 +3,7 @@
 .header {
   border-bottom: 2px solid var(--primary-color);
   height: fit-content;
+  width: 100%;
 
   &-ul {
     margin: 0;
@@ -46,5 +47,15 @@
     cursor: pointer;
     font-weight: 500;
     font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 1250px) {
+  .button-large {
+    width: fit-content;
+  }
+
+  .header-ul {
+    padding-right: 2rem;
   }
 }

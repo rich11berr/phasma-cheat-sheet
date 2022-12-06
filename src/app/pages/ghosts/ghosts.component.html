@@ -1,1 +1,21 @@
-<p>ghosts works!</p>
+<div class="card ghosts">
+  <div class="d-flex flex-row gap-3 align-items-center ghosts-info">
+    <p class="ghosts-label">Ghosts:</p>
+    <p>
+      This is lits of all ghosts. You can click to a ghost for open it page with
+      additional information
+    </p>
+  </div>
+
+  <div class="ghosts-grid">
+    <div
+      class="ghosts-item button button-secondary"
+      *ngFor="let ghost of ghosts"
+      routerLink="/ghosts/{{ ghost.id }}"
+    >
+      <p class="ghosts-item__title">
+        {{ "GHOSTS." + ghost.name + ".NAME" | uppercase | translate }}
+      </p>
+    </div>
+  </div>
+</div>

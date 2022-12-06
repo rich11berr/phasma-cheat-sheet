@@ -1,9 +1,9 @@
 <div class="card cheat">
+  <!-- EVIDENCE -->
   <div class="d-flex flex-row gap-3 align-items-center">
     <p class="cheat-label">{{ "CHEATSHEET.UI.EVIDENCE" | translate }}:</p>
     <p>{{ "CHEATSHEET.UI.EV_INSTR" | translate }}</p>
   </div>
-
   <div class="cheat-evid">
     <div class="cheat-evid-grid">
       <ng-container *ngFor="let evidence of evdences">
@@ -28,6 +28,37 @@
       </ng-container>
     </div>
 
+    <!-- SPEED -->
+    <div class="d-flex flex-row gap-3 align-items-center">
+      <p class="cheat-label">{{ "CHEATSHEET.UI.SPEED_LABEL" | translate }}:</p>
+      <p>
+        {{ "CHEATSHEET.UI.SPEED_DESCR" | translate }}
+      </p>
+    </div>
+    <div class="d-flex flex-row gap-2">
+      <button
+        class="button button-secondary button-medium"
+        [ngClass]="speed === undefined ? '--active' : ''"
+        (click)="speed = undefined; filterGhosts()"
+      >
+        Undefined
+      </button>
+      <button
+        class="button button-secondary button-medium"
+        [ngClass]="speed === true ? '--active' : ''"
+        (click)="speed = true; filterGhosts()"
+      >
+        Unstable
+      </button>
+      <button
+        class="button button-secondary button-medium"
+        [ngClass]="speed === false ? '--active' : ''"
+        (click)="speed = false; filterGhosts()"
+      >
+        Default
+      </button>
+    </div>
+
     <div class="cheat-evid-filters">
       <button
         class="button button-medium button-primary"
@@ -45,7 +76,10 @@
 
   <div class="cheat-ghosts">
     <ng-container *ngFor="let ghost of ghostsCopy">
-      <div class="cheat-ghost card d-flex flex-column gap-3">
+      <div
+        class="cheat-ghost card d-flex flex-column gap-3"
+        routerLink="/ghosts/{{ ghost.id }}"
+      >
         <p class="cheat-ghost__title">
           {{ "GHOSTS." + ghost.name + ".NAME" | uppercase | translate }}
         </p>
